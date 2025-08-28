@@ -9,6 +9,12 @@ const sidebars: SidebarsConfig = {
       link: { type: "generated-index" },
       items: ["frontend/lg-en/index"],
     },
+    {
+      type: "category",
+      label: "Backend",
+      link: { type: "generated-index" },
+      items: ["backend/lg-en/index"],
+    },
   ],
 };
 
