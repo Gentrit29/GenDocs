@@ -1,5 +1,4 @@
-import Disclaimer from "@site/src/ui/disclaimer.tsx";
-import Note from "@site/src/ui/note.tsx";
+import Callout from "@site/src/ui/callout.tsx";
 
 # Introduction
 
@@ -10,11 +9,17 @@ Although it started for my own use, I have decided to make it open so others can
 
 ## Disclaimer
 
-<Disclaimer message="All course reviews and evaluations on this site reflect personal opinions and experiences. They are subjective and should not be considered definitive recommendations. Users are encouraged to conduct their own research and evaluate courses independently before making decisions." />
+<Callout
+  type="disclaimer"
+  message="All course reviews and evaluations on this site reflect personal opinions and experiences. They are subjective and should not be considered definitive recommendations. Users are encouraged to conduct their own research and evaluate courses independently before making decisions."
+/>
 
 ## Note
 
-<Note message="If you want to share resources or feedback, create an issue or pull request on GitHub. I will review submissions when possible." />
+<Callout
+  type="note"
+  message="If you want to share resources or feedback, create an issue or pull request on GitHub. I will review submissions when possible."
+/>
 
 ## Project Purpose
 
@@ -26,9 +31,11 @@ The **main** scope is personal tracking first. Contributions such as resource su
 
 ## Navigation Overview
 
-The courses are organized by category, with each main category having its own index page:
+The courses and resources are organized by category, with each main category having its own index page:
 
-| Category | Description                                                               | Link                       |
-| -------- | ------------------------------------------------------------------------- | -------------------------- |
-| Frontend | Courses on frontend development: JS, React, TailwindCSS, TypeScript, etc. | [Go](./category/frontend/) |
-| Backend  | Courses on backend development: Node.js, Express, databases, etc.         | [Go](./category/backend/)  |
+| Category      | Description                                                               | Link                       |
+| ------------- | ------------------------------------------------------------------------- | -------------------------- |
+| Frontend      | Courses on frontend development: JS, React, TailwindCSS, TypeScript, etc. | [Go](./category/frontend/) |
+| Backend       | Courses on backend development: Node.js, Express, databases, etc.         | [Go](./category/backend/)  |
+| Resources     | Contains links to useful configurations, articles, and tools.             | [Go](resources.mdx)        |
+| Contributions | Provides instructions for adding new courses or resources to GenDocs.     | [Go](contributions.mdx)    |
