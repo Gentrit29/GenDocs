@@ -6,9 +6,9 @@ export default function GoBack() {
     <div id="tw-scope" className="mb-3">
       <Link
         to="/docs/frontend/lg-en"
-        className="inline-flex items-center rounded-full bg-neutral-800 px-2 py-1 text-lg text-gray-200 transition-colors duration-300 ease-in hover:bg-green-500 lg:px-3 lg:py-1.5"
+        className="inline-flex items-center gap-2 rounded-full bg-gray-200 px-2 py-1 text-lg text-black transition-colors duration-300 ease-in hover:bg-green-500 lg:px-3 lg:py-1.5 dark:bg-neutral-800 dark:text-gray-200"
       >
-        <GoArrowLeft className="mr-2" />
+        <GoArrowLeft />
         Go back
       </Link>
     </div>
