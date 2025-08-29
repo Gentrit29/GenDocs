@@ -2,7 +2,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 const sidebars: SidebarsConfig = {
   docSidebar: [
-    { type: "doc", id: "intro" },
+    { type: "doc", id: "intro", label: "Introdution" },
     {
       type: "category",
       label: "Frontend",
@@ -15,6 +15,8 @@ const sidebars: SidebarsConfig = {
       link: { type: "generated-index" },
       items: ["backend/lg-en/index"],
     },
+    { type: "doc", id: "resources", label: "Resources" },
+    { type: "doc", id: "contributions", label: "Contributions" },
   ],
 };
 
