@@ -32,6 +32,9 @@ const config: Config = {
   ],
   plugins: ["./src/plugins/tailwind-config.js"],
   themeConfig: {
+    colorMode: {
+      defaultMode: "light",
+    },
     image: "img/gendocs-logo.png",
     navbar: {
       title: "GenDocs",
@@ -47,11 +50,14 @@ const config: Config = {
           label: "Documentation",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/Gentrit29/GenDocs",
           label: "GitHub",
           position: "right",
         },
       ],
+    },
+    footer: {
+      copyright: `Made by <a href="https://github.com/Gentrit29" target="_blank" rel="noopener noreferrer">Gentrit</a>, built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
