@@ -19,12 +19,12 @@ function HomeHeader() {
             <Heading as="h1" className="text-green-500">
               {siteConfig.title}
             </Heading>
-            <p className="text-gray-200">{siteConfig.tagline}</p>
+            <p className="dark:text-gray-200">{siteConfig.tagline}</p>
           </div>
           <div className="mt-10 space-x-2 text-center lg:text-left">
             <Link
               to="/docs/intro"
-              className="rounded-full bg-neutral-800 p-3 text-lg text-gray-200 transition-colors duration-300 ease-in hover:bg-green-500"
+              className="rounded-3xl bg-green-500 p-3 text-lg text-white transition-colors duration-300 ease-in hover:bg-green-400"
             >
               Explore
             </Link>
@@ -32,7 +32,7 @@ function HomeHeader() {
               href="https://github.com/Gentrit29/GenDocs"
               target="_blank"
               rel="noreferrer noopener"
-              className="rounded-full bg-neutral-800 p-3 text-lg text-gray-200 transition-colors duration-300 ease-in hover:bg-green-500"
+              className="rounded-3xl border border-gray-300 p-3 text-lg text-black transition-colors duration-300 ease-in hover:border-gray-400 dark:border-gray-500 dark:bg-neutral-800 dark:text-gray-300 dark:hover:border-gray-300"
             >
               GitHub
             </a>
@@ -48,14 +48,16 @@ function HomeHeader() {
 
 function HeroCard({ title, description, icon: Icon }: Cards) {
   return (
-    <div className="w-full rounded-lg border border-transparent bg-neutral-800 transition-colors duration-300 hover:border-green-500">
+    <div className="w-full rounded-lg border border-gray-200 transition-colors duration-300 hover:border-green-500 dark:border-transparent dark:bg-neutral-800 dark:hover:border-green-500">
       <div className="space-y-4 p-6">
         <div className="w-fit rounded-lg bg-green-500 p-2">
-          <Icon className="h-6 w-6 text-gray-200" />
+          <Icon className="h-6 w-6 text-white dark:text-gray-200" />
         </div>
         <div className="space-y-1">
-          <h1 className="text-xl text-gray-200">{title}</h1>
-          <p className="text-base text-gray-300">{description}</p>
+          <h1 className="text-xl text-gray-800 dark:text-gray-200">{title}</h1>
+          <p className="text-base text-gray-700 dark:text-gray-300">
+            {description}
+          </p>
         </div>
       </div>
     </div>
