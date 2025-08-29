@@ -9,3 +9,21 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 
 @custom-variant dark (&:is([data-theme="dark"] *));
+
+:root {
+  --ifm-color-primary: oklch(72.3% 0.219 149.579);
+}
+
+.footer {
+  background-color: transparent;
+  border-top: 0.1rem solid oklch(92.8% 0.006 264.531);
+  color: oklch(27.8% 0.033 256.848);
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+html[data-theme="dark"] .footer {
+  border-top: 0.1rem solid gray;
+  color: oklch(92.8% 0.006 264.531);
+}
