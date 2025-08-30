@@ -1,41 +1,60 @@
-# Website
+# GenDocs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to GenDocs. This project began as a personal index of courses I have taken during my self-taught developer journey. I created it to keep track of resources I found useful, organized by category.
 
-## Installation
+![App Screenshot](/static/img/gendocs-home.png)
 
-```bash
-yarn
-```
+## Tech Stack
 
-## Local Development
+- **Docusaurus**: It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive.
+- **TypeScript**: JavaScript with static typing for better development experience
+- **Tailwind CSS**: CSS framework for fast styling
 
-```bash
-yarn start
-```
+## Features
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- Courses and Resources organized by category
+- Notes, disclaimers, and work-in-progress indicators for courses and resources
+- Light and Dark mode support
+- Responsive design
 
-## Build
+## Contributions
 
-```bash
-yarn build
-```
+You can find the rules and guidelines for contributing to GenDocs in the [documentation section](https://gendocs-v1.vercel.app/docs/contributions) on the website.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Run Locally
 
-## Deployment
-
-Using SSH:
+Clone the project
 
 ```bash
-USE_SSH=true yarn deploy
+  git clone https://github.com/Gentrit29/GenDocs.git
 ```
 
-Not using SSH:
+Go to the project directory
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+  cd GenDocs
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+## Demo
+
+Check out the live version here:
+
+```bash
+  https://gendocs-v1.vercel.app/
+```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
