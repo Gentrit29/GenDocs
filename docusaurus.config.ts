@@ -10,7 +10,7 @@ const config: Config = {
   future: {
     v4: true,
   },
-  url: "https://gendocs.vercel.app",
+  url: "https://gendocs-v1.vercel.app/",
   baseUrl: "/",
   i18n: {
     defaultLocale: "en",
