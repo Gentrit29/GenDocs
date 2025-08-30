@@ -10,7 +10,7 @@ const config: Config = {
   future: {
     v4: true,
   },
-  url: "http://localhost:3000",
+  url: "https://gendocs.vercel.app",
   baseUrl: "/",
   i18n: {
     defaultLocale: "en",
