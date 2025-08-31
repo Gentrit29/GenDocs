@@ -70,10 +70,10 @@ export default function Home(): ReactNode {
       title="Home"
       description="Description will go into a meta tag in <head />"
     >
-      <div className="mt-10 px-10 lg:px-20 xl:px-30 2xl:px-70">
+      <div className="mt-10 px-10 lg:px-20 xl:px-32 2xl:px-72">
         <HomeHeader />
         <main>
-          <div className="mt-30 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-32 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {cards.map((card) => (
               <HeroCard key={card.title} {...card} />
             ))}
