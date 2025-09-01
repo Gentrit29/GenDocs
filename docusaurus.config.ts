@@ -22,7 +22,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/Gentrit29/GenDocs",
+          editUrl: "https://github.com/Gentrit29/GenDocs/edit/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
