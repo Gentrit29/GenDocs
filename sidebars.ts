@@ -17,6 +17,7 @@ const sidebars: SidebarsConfig = {
     },
     { type: "doc", id: "resources", label: "Resources" },
     { type: "doc", id: "contributions", label: "Contributions" },
+    { type: "doc", id: "personal-note", label: "Personal Note" },
   ],
 };
 
